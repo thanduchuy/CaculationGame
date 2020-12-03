@@ -15,6 +15,8 @@
 		1319D42D257483F000DC0ABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1319D42B257483F000DC0ABE /* LaunchScreen.storyboard */; };
 		1319D438257483F000DC0ABE /* CalculationGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1319D437257483F000DC0ABE /* CalculationGameTests.swift */; };
 		1319D443257483F000DC0ABE /* CalculationGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1319D442257483F000DC0ABE /* CalculationGameUITests.swift */; };
+		1319D4542574853100DC0ABE /* ButtonCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1319D4532574853100DC0ABE /* ButtonCalculation.swift */; };
+		1319D45D2574881400DC0ABE /* KeyBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1319D45C2574881400DC0ABE /* KeyBoardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1319D43E257483F000DC0ABE /* CalculationGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculationGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1319D442257483F000DC0ABE /* CalculationGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationGameUITests.swift; sourceTree = "<group>"; };
 		1319D444257483F000DC0ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1319D4532574853100DC0ABE /* ButtonCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCalculation.swift; sourceTree = "<group>"; };
+		1319D45C2574881400DC0ABE /* KeyBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		1319D41F257483ED00DC0ABE /* CalculationGame */ = {
 			isa = PBXGroup;
 			children = (
+				1319D4582574853900DC0ABE /* Models */,
 				1319D420257483ED00DC0ABE /* AppDelegate.swift */,
 				1319D422257483ED00DC0ABE /* SceneDelegate.swift */,
 				1319D424257483ED00DC0ABE /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				1319D429257483F000DC0ABE /* Assets.xcassets */,
 				1319D42B257483F000DC0ABE /* LaunchScreen.storyboard */,
 				1319D42E257483F000DC0ABE /* Info.plist */,
+				1319D45C2574881400DC0ABE /* KeyBoardCell.swift */,
 			);
 			path = CalculationGame;
 			sourceTree = "<group>";
@@ -126,6 +132,14 @@
 				1319D444257483F000DC0ABE /* Info.plist */,
 			);
 			path = CalculationGameUITests;
+			sourceTree = "<group>";
+		};
+		1319D4582574853900DC0ABE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1319D4532574853100DC0ABE /* ButtonCalculation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1319D45D2574881400DC0ABE /* KeyBoardCell.swift in Sources */,
 				1319D425257483ED00DC0ABE /* ViewController.swift in Sources */,
+				1319D4542574853100DC0ABE /* ButtonCalculation.swift in Sources */,
 				1319D421257483ED00DC0ABE /* AppDelegate.swift in Sources */,
 				1319D423257483ED00DC0ABE /* SceneDelegate.swift in Sources */,
 			);
